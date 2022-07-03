@@ -1,0 +1,39 @@
+
+.TitleBody{
+    color: white;
+    background-image: linear-gradient(rgba(105, 158, 204, 0.913), rgba(13, 118, 210, 0.913));
+    background-size: 50%;
+    font-family: sans-serif;
+    font-size: 10vh;
+    border: 10px double white;
+    border-radius: 25%;
+    height: auto;
+    margin-top: 5%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 6%;
+    text-align: center;
+}
+
+.MainBody{
+    background-image: url("images/HomePageBackground.png");
+    background-size: 100%;
+}
+
+.flex-container{
+    display: flex;
+    gap: 5px;
+}
+
+.main-content{
+    flex: 1;
+    border: 5px solid white;
+    text-align: center;
+}
+
+.sidebar{
+    flex: 1;
+    border: 5px solid white;
+    text-align: center;
+}
