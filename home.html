@@ -6,22 +6,23 @@
         </title>
         <link rel="stylesheet" href="stylesheet.css">
     </head>
-    <body class="MainBody">
-        <h1 class="TitleBody">WELCOME TO MATTHEW'S FIRST WEBSITE!!!</h1>
+    <body class="main-body">
+        <h1 title="Yes, The Man Himself Has Made A Website!" class="title-body">
+            WELCOME TO MATTHEW'S FIRST WEBSITE!!!
+        </h1>
         <div class="flex-container">
-            <section class="main-content">
-                <h2>Main Content</h2>
+            <section class="content-column" style="flex:5;">
+                <span title="This is a Tool Tip">Main Content</span>
                 <p>
                     This is Main Content
                 </p>
             </section>
 
-            <section class="sidebar" style="flex:2;">
-                <h2>Sidebar</h2>
-                <p>
-                    This is Sidebar content
-                </p>
+            <section class="content-column" style="flex:8;">
+                <h2>Current Time</h2>
+                <p id="CurrentDate"></p>
             <section>
         </div>
+        <script src="main.js"></script>
     </body>
 </html>

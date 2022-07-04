@@ -1,5 +1,5 @@
 
-.TitleBody{
+.title-body{
     color: white;
     background-image: linear-gradient(rgba(105, 158, 204, 0.913), rgba(13, 118, 210, 0.913));
     background-size: 50%;
@@ -9,31 +9,47 @@
     border-radius: 25%;
     height: auto;
     margin-top: 5%;
-    margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: 20%;
     margin-right: 20%;
     padding: 6%;
     text-align: center;
 }
 
-.MainBody{
+.main-body{
     background-image: url("images/HomePageBackground.png");
-    background-size: 100%;
+    background-size: 200%;
 }
 
 .flex-container{
     display: flex;
-    gap: 5px;
+    gap: 1%;
 }
 
-.main-content{
-    flex: 1;
-    border: 5px solid white;
+.content-column{
+    border: 5px;
+    border-style: double groove;
+    border-color: white;
     text-align: center;
+    font-family: sans-serif;
+    color: white;
+    background-color: purple;
+    background-image: linear-gradient(rgba(105, 158, 204, 0.913), rgba(13, 118, 210, 0.913));
+    background-size: 50%;
+    padding: 2%;
+    padding-block: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
-.sidebar{
-    flex: 1;
-    border: 5px solid white;
-    text-align: center;
+#CurrentDate{
+    color: rgb(23, 118, 23);
+    font-weight: bold;
+    font-size: 3vh;
+    background-color: black;
+    border: 5px;
+    border-style:inherit;
+    border-color: rgb(218, 218, 67);
 }
