@@ -50,6 +50,18 @@
     font-size: 3vh;
     background-color: black;
     border: 5px;
-    border-style:inherit;
+    border-style: inherit;
     border-color: rgb(218, 218, 67);
+}
+
+#top-nav-bar button, #bottom-nav-bar button{
+    flex: 1; 
+    text-align: center;
+    list-style-type: none;
+    border: 5px;
+    border-style: double groove;
+    border-color: rgb(218, 218, 67);
+    background-image: linear-gradient(darkblue, blue );
+    color: white;
+    font-family: sans-serif;
 }

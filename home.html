@@ -10,17 +10,33 @@
         <h1 title="Yes, The Man Himself Has Made A Website!" class="title-body">
             WELCOME TO MATTHEW'S FIRST WEBSITE!!!
         </h1>
+        <div class="content-column">
+            <ul class="flex-container" id="top-nav-bar">
+                <button onclick="alert('Hello there')">Hello</button>
+                <button onclick="location.href = 'https://www.w3schools.com/cssref/css_selectors.asp'">Hello</button>
+                <button>Hello</button>
+            </ul>
+            <ul class="flex-container" id="bottom-nav-bar">
+                <button>Hello</button>
+                <button>Hello</button>
+            </ul>
+        </div>
         <div class="flex-container">
             <section class="content-column" style="flex:5;">
-                <span title="This is a Tool Tip">Main Content</span>
+                <h1 title="This is a Tool Tip">About Me</h1>
                 <p>
                     This is Main Content
                 </p>
             </section>
 
-            <section class="content-column" style="flex:8;">
-                <h2>Current Time</h2>
-                <p id="CurrentDate"></p>
+            <section style="flex:9;">
+                <section class="content-column">
+                    <h2>Current Time</h2>
+                    <p id="CurrentDate"></p>
+                </section>
+                <section class="content-column">
+                    <h2>Current Time</h2>
+                </section>
             <section>
         </div>
         <script src="main.js"></script>

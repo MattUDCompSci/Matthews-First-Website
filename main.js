@@ -4,9 +4,8 @@ function main(){
 }
 
 function getDate(){
-    let d = new Date();
-    let time = "" + d
-    document.getElementById("CurrentDate").innerHTML = time;
+    let date = new Date();
+    document.getElementById("CurrentDate").innerHTML = "" + date;
     setTimeout(getDate, 1000);
 }
 main();
