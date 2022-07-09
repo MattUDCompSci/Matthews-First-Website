@@ -4,41 +4,43 @@
         <title>
             Matthew's First Website
         </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="stylesheet.css">
     </head>
-    <body class="main-body">
-        <h1 title="Yes, The Man Himself Has Made A Website!" class="title-body">
-            WELCOME TO MATTHEW'S FIRST WEBSITE!!!
-        </h1>
-        <div class="content-column">
-            <ul class="flex-container" id="top-nav-bar">
-                <button onclick="alert('Hello there')">Hello</button>
-                <button onclick="location.href = 'https://www.w3schools.com/cssref/css_selectors.asp'">Hello</button>
-                <button>Hello</button>
-            </ul>
-            <ul class="flex-container" id="bottom-nav-bar">
-                <button>Hello</button>
-                <button>Hello</button>
-            </ul>
-        </div>
-        <div class="flex-container">
-            <section class="content-column" style="flex:5;">
-                <h1 title="This is a Tool Tip">About Me</h1>
-                <p>
-                    This is Main Content
-                </p>
-            </section>
-
-            <section style="flex:9;">
-                <section class="content-column">
-                    <h2>Current Time</h2>
-                    <p id="CurrentDate"></p>
+    <body class="body">
+        <header class="header-body">
+            <nav class="nav-bar">
+                <ul id="top-nav-bar">
+                    <button onclick="alert('Hello')">Hello</button>
+                    <button onclick="location.href = 'https://www.w3schools.com/cssref/css_selectors.asp'">Hello</button>
+                    <button>Hello</button>
+                </ul>
+            </nav>
+        </header>
+        <main class="main-body">
+            <h1 title="Yes, The Man Himself Has Made A Website!" class="title-body">
+                WELCOME TO MATTHEW'S FIRST WEBSITE!!!
+            </h1>
+            
+            <div class="flex-container">
+                <section class="content-column" style="flex:5;">
+                    <h1 title="This is a Tool Tip">About Me</h1>
+                    <p>
+                        This is Main Content
+                    </p>
                 </section>
-                <section class="content-column">
-                    <h2>Current Time</h2>
-                </section>
-            <section>
-        </div>
+    
+                <section style="flex:9;">
+                    <section class="content-column">
+                        <h2>Current Time</h2>
+                        <p id="CurrentDate"></p>
+                    </section>
+                    <section class="content-column">
+                        <h2>Current Time</h2>
+                    </section>
+                <section>
+            </div>
+        </main>
         <script src="main.js"></script>
     </body>
 </html>

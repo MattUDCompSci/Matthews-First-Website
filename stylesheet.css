@@ -1,3 +1,51 @@
+.body{
+    background: url("images/HomePageBackground.png") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+.header-body{
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.main-body{
+    height: 80%;
+    width: 100%;
+    background-position: fixed;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.nav-bar{
+    background-image: linear-gradient(rgba(105, 158, 204, 0.913), rgba(13, 118, 210, 0.913));
+    background-size: 100%;
+    background-color: purple;
+    border-style: double groove;
+    border-color: white;
+    border-left-style: none;
+    border-right-style: none;
+    padding-inline-start: 0%;
+}
+#top-nav-bar{
+    padding: 0%;
+}
+#top-nav-bar button{
+    text-align: center;
+    list-style-type: none;
+    border: 5px;
+    background-color: transparent;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 10%;
+}
 
 .title-body{
     color: white;
@@ -8,22 +56,18 @@
     border: 10px double white;
     border-radius: 25%;
     height: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 6%;
+    margin-top: 18%;
+    margin-bottom: 9%;
+    margin-left: 13%;
+    margin-right: 13%;
+    padding: 5%;
+    position: relative;
     text-align: center;
-}
-
-.main-body{
-    background-image: url("images/HomePageBackground.png");
-    background-size: 200%;
-}
-
-.flex-container{
-    display: flex;
-    gap: 1%;
+    animation-name: home-title;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
 }
 
 .content-column{
@@ -36,6 +80,9 @@
     background-color: purple;
     background-image: linear-gradient(rgba(105, 158, 204, 0.913), rgba(13, 118, 210, 0.913));
     background-size: 50%;
+}
+
+section.content-column{
     padding: 2%;
     padding-block: 2%;
     margin-top: 2%;
@@ -49,19 +96,21 @@
     font-weight: bold;
     font-size: 3vh;
     background-color: black;
+    border-radius: 10%;
     border: 5px;
     border-style: inherit;
     border-color: rgb(218, 218, 67);
 }
 
-#top-nav-bar button, #bottom-nav-bar button{
-    flex: 1; 
-    text-align: center;
-    list-style-type: none;
-    border: 5px;
-    border-style: double groove;
-    border-color: rgb(218, 218, 67);
-    background-image: linear-gradient(darkblue, blue );
-    color: white;
-    font-family: sans-serif;
+
+@keyframes home-title {
+    25%{
+        transform: rotate(15deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-15deg);
+    }
 }
